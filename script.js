@@ -22,10 +22,12 @@ document.addEventListener('DOMContentLoaded', function() {
         const burger = document.querySelector('.burger');
         const nav = document.querySelector('.nav-links');
         const navLinks = document.querySelectorAll('.nav-links li');
+        const headerCta = document.querySelector('.header-cta');
 
         burger.addEventListener('click', () => {
             // Toggle Nav
             nav.classList.toggle('nav-active');
+            headerCta.classList.toggle('nav-active');
 
             // Animate Links
             navLinks.forEach((link, index) => {
@@ -42,4 +44,13 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     navSlide();
+
+    // Menu hambúrguer
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('.nav-links');
+    
+    burger.addEventListener('click', () => {
+        nav.classList.toggle('nav-active');
+        burger.classList.toggle('toggle');
+    });
 });

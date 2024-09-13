@@ -12,7 +12,7 @@
     <meta property="og:url" content="https://www.seusite.com">
     <link rel="Logo" type="image/jpg" href="imgs/logo-turistando.jpg">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <title>Turistando - Descubra o Mundo</title>
+    <title>Galeão Auto Peças</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
@@ -22,20 +22,21 @@
 <body>
     <header>
         <nav>
-            <div class="logo">
-                <img src="imgs/logo-turistando.jpg" alt="Turistando Logo">
-            </div>
-            <ul class="nav-links">
-                <li><a href="#home">Início</a></li>
-                <li><a href="#destinos">Destinos</a></li>
-                <li><a href="#pacotes">Pacotes</a></li>
-                <li><a href="#sobre">Sobre Nós</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-            <div class="burger">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
+            <div class="header-container">
+                <div class="logo">
+                    <img src="imgs/logo-galeão.jpg" alt="Galeão Auto Peças Logo">
+                </div>
+                <div class="burger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
             </div>
         </nav>
     </header>
@@ -43,140 +44,92 @@
     <main>
         <section id="home" class="hero">
             <div class="hero-content" data-aos="fade-right" data-aos-delay="300">
-                <h1>Conheça o Rio de Janeiro com a Turistando!</h1>
-                <p>Experiências únicas, destinos deslumbrantes e memórias inesquecíveis.</p>
-                <a href="#pacotes" class="cta-button">Explore Nossos Pacotes</a>
+                <h1>CONHEÇA A GALEÃO AUTO PEÇAS</h1>
+                <p>Qualidade que transforma seu carro!</p>
+                <a href="#produtos" class="cta-button">Explore Nossos Produtos</a>
             </div>
-        </section>
+            <section id="produtos-vendidos" class="produtos-vendidos" data-aos="zoom-in" data-aos-delay="100">
+                <h2 class="produtos-vendidos-titulo">Produtos Mais Vendidos</h2>
+                <div class="produtos-grid">
+                    <div class="produto-item" data-aos="zoom-in" data-aos-delay="100">
+                        <img src="caminho/para/imagem-produto.jpg" alt="Nome do Produto">
+                        <h3>Nome do Produto</h3>
+                        <p>Breve descrição do produto</p>
+                    </div>
+                    <div class="produto-item" data-aos="zoom-in" data-aos-delay="100">
+                        <img src="caminho/para/imagem-produto.jpg" alt="Nome do Produto">
+                        <h3>Nome do Produto</h3>
+                        <p>Breve descrição do produto</p>
+                    </div>
+                    <div class="produto-item" data-aos="zoom-in" data-aos-delay="100">
+                        <img src="caminho/para/imagem-produto.jpg" alt="Nome do Produto">
+                        <h3>Nome do Produto</h3>
+                        <p>Breve descrição do produto</p>
+                    </div>
+                    <div class="produto-item" data-aos="zoom-in" data-aos-delay="100">
+                        <img src="caminho/para/imagem-produto.jpg" alt="Nome do Produto">
+                        <h3>Nome do Produto</h3>
+                        <p>Breve descrição do produto</p>
+                    </div>
+                    <!-- Adicione mais produtos conforme necessário -->
+                </div>
+            </section>
 
-        <section id="destinos" class="destinos" data-aos="fade-up">
-            <h2>Destinos Populares</h2>
-            <div class="destinos-grid">
-                <!-- Cards de destinos -->
-                <div class="destino-card" data-aos="flip-left" data-aos-delay="100">
-                    <img src="imgs/copacabana.jpg" alt="Praia de Copacabana">
-                    <h3>Copacabana</h3>
-                    <p>Desfrute das famosas areias e do calçadão icônico de Copacabana.</p>
-                    <a href="#" class="btn-saiba-mais">Saiba Mais</a>
+        <section id="marcas" class="marcas" data-aos="fade-up">
+            <h2 class="marcas-titulo">Marcas que trabalhamos</h2>
+            <div class="marcas-grid">
+                <div class="marca-item" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="imgs/nakata-logo.png" alt="Nakata">
+                    <h3>Nakata</h3>
                 </div>
-                
-                <div class="destino-card" data-aos="flip-left" data-aos-delay="200">
-                    <img src="imgs/cristo.jpeg" alt="Cristo Redentor">
-                    <h3>Cristo Redentor</h3>
-                    <p>Visite uma das Sete Maravilhas do Mundo Moderno e aprecie a vista panorâmica.</p>
-                    <a href="#" class="btn-saiba-mais">Saiba Mais</a>
+                <div class="marca-item" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="imgs/axios-logo.png" alt="Axios">
+                    <h3>Axios</h3>
                 </div>
-                
-                <div class="destino-card" data-aos="flip-left" data-aos-delay="300">
-                    <img src="imgs/sugarloaf.jpg" alt="Pão de Açúcar">
-                    <h3>Pão de Açúcar</h3>
-                    <p>Suba de bondinho e contemple a beleza da Baía de Guanabara.</p>
-                    <a href="#" class="btn-saiba-mais">Saiba Mais</a>
+                <div class="marca-item" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="imgs/cofap-logo.png" alt="Cofap">
+                    <h3>Cofap</h3>
                 </div>
-                
-                <div class="destino-card" data-aos="flip-left" data-aos-delay="400">
-                    <img src="imgs/maracana.jpg" alt="Estádio do Maracanã">
-                    <h3>Maracanã</h3>
-                    <p>Conheça o lendário estádio e sinta a paixão do futebol brasileiro.</p>
-                    <a href="#" class="btn-saiba-mais">Saiba Mais</a>
+                <div class="marca-item" data-aos="zoom-in" data-aos-delay="400">
+                    <img src="imgs/monroe-logo.png" alt="Monroe">
+                    <h3>Monroe</h3>
                 </div>
-            </div>
-        </section>
-
-        <section id="pacotes" class="pacotes" data-aos="fade-up">
-            <h2>Pacote Completo: Rolê de Cria!</h2>
-            <div class="pacote-info">
-                <p>Explore o melhor do Rio de Janeiro com nosso pacote completo, incluindo visitas a:</p>
-            </div>
-            <div class="pacote-grid">
-                <div class="pacote-item" data-aos="zoom-in" data-aos-delay="100">
-                    <img src="imgs/boulevard.jpg" alt="Boulevard Olímpico">
-                    <h3>Boulevard Olímpico</h3>
+                <div class="marca-item" data-aos="zoom-in" data-aos-delay="500">
+                    <img src="imgs/kayaba-logo.jpg" alt="Kayaba">
+                    <h3>Kayaba</h3>
                 </div>
-                <div class="pacote-item" data-aos="zoom-in" data-aos-delay="200">
-                    <img src="imgs/catete.jpg" alt="Palácio do Catete">
-                    <h3>Palácio do Catete</h3>
+                <div class="marca-item" data-aos="zoom-in" data-aos-delay="600">
+                    <img src="imgs/perfect.jpg" alt="Perfect">
+                    <h3>Perfect</h3>
                 </div>
-                <div class="pacote-item" data-aos="zoom-in" data-aos-delay="300">
-                    <img src="imgs/cdd.jpg" alt="Cidade de Deus">
-                    <h3>Cidade de Deus</h3>
+                <div class="marca-item" data-aos="zoom-in" data-aos-delay="700">
+                    <img src="imgs/ngk-logo.png" alt="NGK">
+                    <h3>NGK</h3>
                 </div>
-                <div class="pacote-item" data-aos="zoom-in" data-aos-delay="400">
-                    <img src="imgs/copacabana.jpg" alt="Praia de Copacabana">
-                    <h3>Praia de Copacabana</h3>
+                <div class="marca-item" data-aos="zoom-in" data-aos-delay="800">
+                    <img src="imgs/wega-logo.png" alt="Wega">
+                    <h3>Wega</h3>
                 </div>
-                <div class="pacote-item" data-aos="zoom-in" data-aos-delay="500">
-                    <img src="imgs/cristo.jpeg" alt="Cristo Redentor">
-                    <h3>Cristo Redentor</h3>
+                <div class="marca-item" data-aos="zoom-in" data-aos-delay="900">
+                    <img src="imgs/filtros-brasil-logo.png" alt="Filtros Brasil">
+                    <h3>Filtros Brasil</h3>
                 </div>
-                <div class="pacote-item" data-aos="zoom-in" data-aos-delay="600">
-                    <img src="imgs/ipanema.jpg" alt="Praia de Ipanema">
-                    <h3>Praia de Ipanema</h3>
+                <div class="marca-item" data-aos="zoom-in" data-aos-delay="1100">
+                    <img src="imgs/ipiranga.jpg" alt="Ipiranga">
+                    <h3>Ipiranga</h3>
                 </div>
-                <div class="pacote-item" data-aos="zoom-in" data-aos-delay="700">
-                    <img src="imgs/jardimbotanico.jpg" alt="Jardim Botânico">
-                    <h3>Jardim Botânico</h3>
+                <div class="marca-item" data-aos="zoom-in" data-aos-delay="1200">
+                    <img src="imgs/radnaq.jpg" alt="Radnaq">
+                    <h3>Radnaq</h3>
                 </div>
-                <div class="pacote-item" data-aos="zoom-in" data-aos-delay="800">
-                    <img src="imgs/lapa.jpg" alt="Arcos da Lapa">
-                    <h3>Arcos da Lapa</h3>
+                <div class="marca-item" data-aos="zoom-in" data-aos-delay="1300">
+                    <img src="imgs/get-oil.jpg" alt="Get Oil">
+                    <h3>Get Oil</h3>
                 </div>
-                <div class="pacote-item" data-aos="zoom-in" data-aos-delay="900">
-                    <img src="imgs/maracana.jpg" alt="Estádio do Maracanã">
-                    <h3>Estádio do Maracanã</h3>
+                <div class="marca-item" data-aos="zoom-in" data-aos-delay="1500">
+                    <img src="imgs/cobreq-logo.png" alt="COBREQ">
+                    <h3>COBREQ</h3>
                 </div>
-                <div class="pacote-item" data-aos="zoom-in" data-aos-delay="1000">
-                    <img src="imgs/museudoamanha.jpg" alt="Museu do Amanhã">
-                    <h3>Museu do Amanhã</h3>
-                </div>
-                <div class="pacote-item" data-aos="zoom-in" data-aos-delay="1100">
-                    <img src="imgs/rocinha.jpg" alt="Favela da Rocinha">
-                    <h3>Favela da Rocinha</h3>
-                </div>
-                <div class="pacote-item" data-aos="zoom-in" data-aos-delay="1200">
-                    <img src="imgs/santateresa.jpg" alt="Bairro Santa Teresa">
-                    <h3>Bairro Santa Teresa</h3>
-                </div>
-                <div class="pacote-item" data-aos="zoom-in" data-aos-delay="1300">
-                    <img src="imgs/sugarloaf.jpg" alt="Pão de Açúcar">
-                    <h3>Pão de Açúcar</h3>
-                </div>
-                <div class="pacote-item" data-aos="zoom-in" data-aos-delay="1400">
-                    <img src="imgs/tijuca.jpg" alt="Floresta da Tijuca">
-                    <h3>Floresta da Tijuca</h3>
-                </div>
-            </div>
-            <div class="pacote-cta">
-                <p>Não perca a chance de conhecer todos esses lugares incríveis!</p>
-                <a href="compra.html" class="btn-reservar" data-aos="fade-up" data-aos-delay="200">Comprar Agora</a>
-            </div>
-        </section>
-
-        <section id="sobre" class="sobre" data-aos="fade-up">
-            <h2>Sobre a Turistando</h2>
-            <div class="sobre-content">
-                <p>A Turistando é uma agência de viagens especializada em proporcionar experiências únicas e inesquecíveis no Rio de Janeiro. Desde 2024, temos o prazer de apresentar as maravilhas da Cidade Maravilhosa para visitantes de todo o mundo.</p>
-                
-                <h3>QUAL O NOSSO DIFERENCIAL?</h3>
-                
-                <ul class="diferenciais">
-                    <li>
-                        <h4>Desconexão digital para reconexão pessoal</h4>
-                        <p>Promovemos uma experiência única, incentivando os participantes a se desconectarem do mundo digital e se conectarem com a natureza e consigo mesmos, proporcionando um momento de paz e reflexão.</p>
-                    </li>
-                    <li>
-                        <h4>Conexão com a comunidade</h4>
-                        <p>Além de apreciar a natureza, nossos participantes têm a oportunidade de conhecer e interagir com comunidades locais, promovendo o turismo sustentável e o intercâmbio cultural.</p>
-                    </li>
-                    <li>
-                        <h4>Experiência personalizada</h4>
-                        <p>Adaptamos nossas trilhas para atender aos diferentes níveis de experiência e interesses de nossos clientes, garantindo uma aventura segura e inesquecível para todos.</p>
-                    </li>
-                    <li>
-                        <h4>Compromisso com a sustentabilidade</h4>
-                        <p>Acreditamos que o turismo deve ser responsável e sustentável. Por isso, adotamos práticas que minimizam o impacto ambiental e contribuem para a preservação da natureza.</p>
-                    </li>
-                </ul>
             </div>
         </section>
 
@@ -185,107 +138,77 @@
             <div class="mvv-container">
                 <div class="mvv-item">
                     <h3>Missão</h3>
-                    <p>Conectar o mundo à alma do Rio de Janeiro, promovendo experiências turísticas autênticas e sustentáveis nas comunidades, gerando valor social e econômico para a cidade.</p>
-                    <p>Revelar a verdadeira essência do Rio de Janeiro através de experiências turísticas imersivas nas comunidades, promovendo o intercâmbio cultural e o desenvolvimento local.</p>
+                    <p>Oferecer peças automotivas de alta qualidade com um atendimento especializado e inclusivo, proporcionando segurança e confiança para nossos clientes. 
+                        Valorizamos o empoderamento feminino no setor automotivo, garantindo que todos os nossos serviços sejam realizados com excelência e transparência.
+                    </p>
                 </div>
                 <div class="mvv-item">
                     <h3>Visão</h3>
-                    <p>Sermos reconhecidos como a principal referência em turismo comunitário no Rio de Janeiro, oferecendo experiências únicas e memoráveis para viajantes do mundo inteiro.</p>
-                    <p>Transformar as comunidades cariocas em destinos turísticos de referência mundial, promovendo o desenvolvimento local e a valorização da cultura brasileira.</p>
+                    <p>Ser referência no mercado de autopeças, reconhecida pela competência técnica, inovação e compromisso com a satisfação dos clientes, destacando o papel das mulheres na indústria automotiva e inspirando outras empresas a seguirem o mesmo caminho de inclusão e excelência.</p>
                 </div>
                 <div class="mvv-item">
                     <h3>Valores</h3>
-                    <ul>
-                        <li><strong>Autenticidade:</strong> Oferecer experiências genuínas e verdadeiras, refletindo a cultura e a vida das comunidades.</li>
-                        <li><strong>Respeito:</strong> Valorizar a cultura e as tradições das comunidades, promovendo o diálogo e a integração entre visitantes e moradores.</li>
-                        <li><strong>Impacto social:</strong> Contribuir para o desenvolvimento social e econômico das comunidades, gerando oportunidades e melhorando a qualidade de vida dos moradores.</li>
-                    </ul>
+                    <p>Nossos valores centrais são o empoderamento feminino, a busca contínua por qualidade e inovação, o compromisso com a inclusão e o respeito à sustentabilidade, garantindo excelência no atendimento e responsabilidade social e ambiental.</p>
                 </div>
             </div>
         </section>
 
-        <section id="depoimentos" class="depoimentos">
-            <h2>O Que Nossos Clientes Dizem</h2>
-            <div class="depoimentos-carousel">
-                <div class="depoimento" data-aos="fade-up" data-aos-delay="100">
-                    <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Maria Silva" class="cliente-foto">
-                    <blockquote>
-                        "A viagem ao Rio de Janeiro com a Turistando foi simplesmente maravilhosa! O pacote completo nos permitiu conhecer todos os pontos turísticos importantes e ainda tivemos tempo para relaxar nas praias. Recomendo muito!"
-                    </blockquote>
-                    <cite>Maria Silva, São Paulo</cite>
+        <section class="depoimentos">
+            <h2 class="depoimentos-titulo">O que nossos clientes dizem</h2>
+            <div class="depoimentos-carousel"></div>
+                <div class="depoimento-item">
+                    <p class="depoimento-conteudo">"Loja maravilhosa, atendimento excelente. 👌"</p>
+                    <p class="depoimento-autor">Jessica Sobralb</p>
                 </div>
-                <div class="depoimento" data-aos="fade-up" data-aos-delay="200">
-                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="João Santos" class="cliente-foto">
-                    <blockquote>
-                        "Fiquei impressionado com a organização e atenção aos detalhes da Turistando. O guia turístico era muito conhecedor e nos mostrou lugares incríveis que não conheceríamos sozinhos. Voltarei certamente!"
-                    </blockquote>
-                    <cite>João Santos, Belo Horizonte</cite>
-                </div>
-                <div class="depoimento" data-aos="fade-up" data-aos-delay="300">
-                    <img src="https://randomuser.me/api/portraits/women/95.jpg" alt="Ana Oliveira" class="cliente-foto">
-                    <blockquote>
-                        "Como fotógrafa amadora, fiquei encantada com as oportunidades de fotos incríveis que tive durante a viagem. O pôr do sol no Arpoador e a vista do Cristo Redentor foram inesquecíveis. Obrigada, Turistando!"
-                    </blockquote>
-                    <cite>Ana Oliveira, Porto Alegre</cite>
-                </div>
-                <div class="depoimento" data-aos="fade-up" data-aos-delay="400">
-                    <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Carlos Ferreira" class="cliente-foto">
-                    <blockquote>
-                        "A experiência na favela da Rocinha foi única e emocionante. A Turistando nos proporcionou uma visão autêntica e respeitosa da comunidade. Aprendi muito sobre a cultura local e a hospitalidade carioca."
-                    </blockquote>
-                    <cite>Carlos Ferreira, Recife</cite>
-                </div>
-                <div class="depoimento" data-aos="fade-up" data-aos-delay="500">
-                    <img src="https://randomuser.me/api/portraits/women/89.jpg" alt="Fernanda Lima" class="cliente-foto">
-                    <blockquote>
-                        "A gastronomia carioca me surpreendeu! A Turistando nos levou a restaurantes incríveis, desde a tradicional feijoada até os modernos bares de Botafogo. Uma verdadeira jornada culinária!"
-                    </blockquote>
-                    <cite>Fernanda Lima, Curitiba</cite>
-                </div>
+                <!-- Repita este bloco para cada depoimento -->
             </div>
-        </section>
-
-        <section id="contato" class="contato">
-            <h2>Entre em Contato</h2>
-            <form id="contato-form">
-                <input type="text" name="nome" placeholder="Seu Nome" required>
-                <input type="email" name="email" placeholder="Seu E-mail" required>
-                <textarea name="mensagem" placeholder="Sua Mensagem" required></textarea>
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
+                <div class="depoimento-item">
+                    <p class="depoimento-conteudo">"A loja está de parabéns, funcionários nota 10 se preocupam com o cliente, se não tem peças eles buscam com fornecedor, e melhor ainda entregou na oficina onde estava meu carro. Com certeza a melhor da ilha. E nos preços tmb. Podem pesquisar"</p>
+                    <p class="depoimento-autor">Ana Cristina</p>
+                </div>
+                
+                    <div class="depoimento-item">
+                        <p class="depoimento-conteudo">"Maravilhosamente ótimo, melhor preço, melhor atendimento da ilha. Parabéns por existir essa auto peças na ilha do governador, muito grato. EQUIPE NOTA 1000"</p>
+                    <p class="depoimento-autor">Marcos paulo lima areia Lima</p>
+                </div>
+                <!-- Repita este bloco para cada depoimento -->
+                    <div class="depoimento-item">
+                        <p class="depoimento-conteudo">"Ótimo atendimento! Estão de parabéns!"</p>
+                        <p class="depoimento-autor">leandro silva</p>
+                    </div>
+                <!-- Repita este bloco para cada depoimento -->
+         </section>
     </main>
+    
 
     <footer data-aos="fade-up">
         <div class="footer-content">
             <div class="footer-section">
-                <h3>Turistando</h3>
-                <p>Transformando sonhos em realidade desde 2024.</p>
+                <h3>Galeão Auto Peças</h3>
+                <p>Qualidade e confiança desde 1990.</p>
             </div>
             <div class="footer-section">
                 <h3>Links Rápidos</h3>
                 <ul>
                     <li><a href="#home">Início</a></li>
-                    <li><a href="#destinos">Destinos</a></li>
-                    <li><a href="#pacotes">Pacotes</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
                     <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#contato">Contato</a></li>
                 </ul>
             </div>
             <div class="footer-section">
-                <h3>Siga-nos</h3>
-                <div class="social-icons">
-                    <a href="https://www.instagram.com/021turistando_/" target="_blank"><i class="fab fa-instagram"></i></a>
-                </div>
+                <h3>Contato</h3>
+                <p>Tel: (21) 99272-9373 / (21) 96472-0351</p>
+                <p>Email: galeao.autopecas230@gmail.com</p>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2024 Turistando. Todos os direitos reservados.</p>
-            <ul class="footer-links">
-                <li><a href="privacidade.html">Política de Privacidade</a></li>
-                <li><a href="termos.html">Termos de Uso</a></li>
-            </ul>
+            <p>&copy; 2024 Galeão Auto Peças. Todos os direitos reservados.</p>
         </div>
     </footer>
+    <a href="https://wa.me/5521992729373" class="whatsapp-button" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 
     <script src="script.js"></script>
     <script src="nav.js"></script>
