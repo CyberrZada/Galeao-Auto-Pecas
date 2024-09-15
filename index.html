@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Qualidade que transforma seu carro">
-    <meta name="keywords" content="peças, automotivo, carros, autopeças, Galeão">
+    <meta name="description" content="Qualidade que transforma o seu carro!">
+    <meta name="keywords" content="automotivo, Galeão, Auto Peças, autopeçasrj, auto, peças, autopeças, rj, Rio de Janeiro">
     <meta name="author" content="Galeão">
     <meta property="og:title" content="Galeão Auto Peças">
     <meta property="og:description" content="Qualidade que transforma seu carro">
-    <meta property="og:image" content="https://galeao-autopecas.netlify.app/imgs/logo-galeão">
-    <meta property="og:url" content="https://galeao-autopecas.netlify.app">
+    <meta property="og:image" content="https://www.seusite.com/imgs/og-image.jpg">
+    <meta property="og:url" content="https://www.seusite.com">
+    <link rel="Logo" type="image/jpg" href="imgs/galeao.jpg">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <title>Galeão Auto Peças</title>
     <link rel="stylesheet" href="style.css">
@@ -21,21 +22,19 @@
 <body>
     <header>
         <nav>
-            <div class="header-container">
-                <div class="logo">
-                    <img src="imgs/logo-galeão.jpg" alt="Galeão Auto Peças Logo">
-                </div>
-                <div class="burger">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <ul class="nav-links">
-                    <li><a href="#home">Início</a></li>
-                    <li><a href="#produtos-vendidos">Produtos</a></li>
-                    <li><a href="#marcas">Marcas</a></li>
-                    <li><a href="#missao-visao-valores">Sobre Nós</a></li>
-                </ul>
+            <div class="logo">
+                <img src="imgs/logo-galeão.jpg" alt="Galeão Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#marcas">Marcas</a></li>
+                <li><a href="#mvv">Sobre Nós</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
             </div>
         </nav>
     </header>
@@ -43,97 +42,93 @@
     <main>
         <section id="home" class="hero">
             <div class="hero-content" data-aos="fade-right" data-aos-delay="300">
-                <h1>CONHEÇA A GALEÃO AUTO PEÇAS</h1>
-                <p>Qualidade que transforma seu carro!</p>
-                <a href="#produtos" class="cta-button">Explore Nossos Produtos</a>
+                <h1>GALEÃO AUTO PEÇAS</h1>
+                <p>Qualidade que transforma o seu carro</p>
             </div>
-            <section id="produtos-vendidos" class="produtos-vendidos" data-aos="zoom-in" data-aos-delay="100">
-                <h2 class="produtos-vendidos-titulo">Produtos Mais Vendidos</h2>
-                <div class="produtos-grid">
-                    <div class="produto-item" data-aos="zoom-in" data-aos-delay="100">
-                        <img src="caminho/para/imagem-produto.jpg" alt="Nome do Produto">
-                        <h3>Nome do Produto</h3>
-                        <p>Breve descrição do produto</p>
-                    </div>
-                    <div class="produto-item" data-aos="zoom-in" data-aos-delay="100">
-                        <img src="caminho/para/imagem-produto.jpg" alt="Nome do Produto">
-                        <h3>Nome do Produto</h3>
-                        <p>Breve descrição do produto</p>
-                    </div>
-                    <div class="produto-item" data-aos="zoom-in" data-aos-delay="100">
-                        <img src="caminho/para/imagem-produto.jpg" alt="Nome do Produto">
-                        <h3>Nome do Produto</h3>
-                        <p>Breve descrição do produto</p>
-                    </div>
-                    <div class="produto-item" data-aos="zoom-in" data-aos-delay="100">
-                        <img src="caminho/para/imagem-produto.jpg" alt="Nome do Produto">
-                        <h3>Nome do Produto</h3>
-                        <p>Breve descrição do produto</p>
-                    </div>
-                    <!-- Adicione mais produtos conforme necessário -->
+        </section>
+
+        <section id="produtos" class="produtos" data-aos="fade-up">
+            <h2>ALGUNS DOS NOSSO PRODUTOS MAIS VENDIDOS</h2>
+            <div class="produtos-grid">
+                <!-- Cards de destinos -->
+                <div class="produto-card" data-aos="flip-left" data-aos-delay="100">
+                    <img src="imgs/oleo-ipiranga.jpeg" alt="Óleo Sintético">
+                    <h3>Óleo 5W40 Sintético Ipiranga</h3>
+                    <p>R$39,00</p>
                 </div>
-            </section>
+                
+                <div class="produto-card" data-aos="flip-left" data-aos-delay="200">
+                    <img src="imgs/oleo-radnaq.jpeg" alt="Óleo Semi Sintético">
+                    <h3>Óleo 15W40 Semi Sintético Radnaq</h3>
+                    <p>R$28,00</p>
+                </div>
+                
+                <div class="produto-card" data-aos="flip-left" data-aos-delay="300">
+                    <img class="gt" src="imgs/oleo-gt.jpeg" alt="Óleo Semi Sintético">
+                    <h3>Óleo Semi Sintético 10W40 GT-Oil</h3>
+                    <p>R$30,00</p>
+                </div>
+            </div>
+        </section>
 
         <section id="marcas" class="marcas" data-aos="fade-up">
-            <h2 class="marcas-titulo">Marcas que trabalhamos</h2>
+            <h2>ALGUMAS MARCAS QUE TRABALHAMOS</h2>
+            <div class="marcas-info">
+            </div>
             <div class="marcas-grid">
                 <div class="marca-item" data-aos="zoom-in" data-aos-delay="100">
-                    <img src="imgs/nakata-logo.png" alt="Nakata">
-                    <h3>Nakata</h3>
-                </div>
-                <div class="marca-item" data-aos="zoom-in" data-aos-delay="200">
                     <img src="imgs/axios-logo.png" alt="Axios">
                     <h3>Axios</h3>
+                </div>
+                <div class="marca-item" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="imgs/cobreq-logo.png" alt="Cobreq">
+                    <h3>Cobreq</h3>
                 </div>
                 <div class="marca-item" data-aos="zoom-in" data-aos-delay="300">
                     <img src="imgs/cofap-logo.png" alt="Cofap">
                     <h3>Cofap</h3>
                 </div>
                 <div class="marca-item" data-aos="zoom-in" data-aos-delay="400">
-                    <img src="imgs/monroe-logo.png" alt="Monroe">
-                    <h3>Monroe</h3>
-                </div>
-                <div class="marca-item" data-aos="zoom-in" data-aos-delay="500">
-                    <img src="imgs/kayaba-logo.jpg" alt="Kayaba">
-                    <h3>Kayaba</h3>
-                </div>
-                <div class="marca-item" data-aos="zoom-in" data-aos-delay="600">
-                    <img src="imgs/perfect.jpg" alt="Perfect">
-                    <h3>Perfect</h3>
-                </div>
-                <div class="marca-item" data-aos="zoom-in" data-aos-delay="700">
-                    <img src="imgs/ngk-logo.png" alt="NGK">
-                    <h3>NGK</h3>
-                </div>
-                <div class="marca-item" data-aos="zoom-in" data-aos-delay="800">
-                    <img src="imgs/wega-logo.png" alt="Wega">
-                    <h3>Wega</h3>
-                </div>
-                <div class="marca-item" data-aos="zoom-in" data-aos-delay="900">
                     <img src="imgs/filtros-brasil-logo.png" alt="Filtros Brasil">
                     <h3>Filtros Brasil</h3>
                 </div>
-                <div class="marca-item" data-aos="zoom-in" data-aos-delay="1100">
+                <div class="marca-item" data-aos="zoom-in" data-aos-delay="500">
+                    <img src="imgs/get-oil.jpg" alt="Get Oil">
+                    <h3>GT-Oil</h3>
+                </div>
+                <div class="marca-item" data-aos="zoom-in" data-aos-delay="600">
                     <img src="imgs/ipiranga.jpg" alt="Ipiranga">
                     <h3>Ipiranga</h3>
+                </div>
+                <div class="marca-item" data-aos="zoom-in" data-aos-delay="700">
+                    <img src="imgs/kayaba-logo.jpg" alt="Kayaba">
+                    <h3>Kayaba</h3>
+                </div>
+                <div class="marca-item" data-aos="zoom-in" data-aos-delay="800">
+                    <img src="imgs/monroe-logo.png" alt="Monroe">
+                    <h3>Monroe</h3>
+                </div>
+                <div class="marca-item" data-aos="zoom-in" data-aos-delay="900">
+                    <img src="imgs/nakata-logo.png" alt="Nakata">
+                    <h3>Nakata</h3>
+                </div>
+                <div class="marca-item" data-aos="zoom-in" data-aos-delay="1000">
+                    <img src="imgs/ngk-logo.png" alt="NGK">
+                    <h3>NGK</h3>
+                </div>
+                <div class="marca-item" data-aos="zoom-in" data-aos-delay="1100">
+                    <img src="imgs/perfect.jpg" alt="Perfect">
+                    <h3>Perfect</h3>
                 </div>
                 <div class="marca-item" data-aos="zoom-in" data-aos-delay="1200">
                     <img src="imgs/radnaq.jpg" alt="Radnaq">
                     <h3>Radnaq</h3>
                 </div>
-                <div class="marca-item" data-aos="zoom-in" data-aos-delay="1300">
-                    <img src="imgs/get-oil.jpg" alt="Get Oil">
-                    <h3>Get Oil</h3>
-                </div>
-                <div class="marca-item" data-aos="zoom-in" data-aos-delay="1500">
-                    <img src="imgs/cobreq-logo.png" alt="COBREQ">
-                    <h3>COBREQ</h3>
-                </div>
             </div>
         </section>
 
-        <section id="missao-visao-valores" class="mvv">
-            <h2>Nossa Missão, Visão e Valores</h2>
+        <section id="mvv" class="mvv" data-aos="fade-up">
+            <h2>NOSSA MISSÃO, VISÃO E VALORES</h2>
             <div class="mvv-container">
                 <div class="mvv-item">
                     <h3>Missão</h3>
@@ -152,56 +147,63 @@
             </div>
         </section>
 
-        <section class="depoimentos">
-            <h2 class="depoimentos-titulo">O que nossos clientes dizem</h2>
-            <div class="depoimentos-carousel"></div>
-                <div class="depoimento-item">
-                    <p class="depoimento-conteudo">"Loja maravilhosa, atendimento excelente. 👌"</p>
-                    <p class="depoimento-autor">Jessica Sobralb</p>
+        <section id="depoimentos" class="depoimentos">
+            <h2>O QUE NOSSOS CLIENTES DIZEM</h2>
+            <div class="depoimentos-carousel">
+                <div class="depoimento" data-aos="fade-up" data-aos-delay="100">
+                    <blockquote>
+                        "Loja maravilhosa, atendimento excelente. 👌"
+                    </blockquote>
+                    <cite>Jessica Sobralb</cite>
                 </div>
-                <!-- Repita este bloco para cada depoimento -->
-            </div>
-                <div class="depoimento-item">
-                    <p class="depoimento-conteudo">"A loja está de parabéns, funcionários nota 10 se preocupam com o cliente, se não tem peças eles buscam com fornecedor, e melhor ainda entregou na oficina onde estava meu carro. Com certeza a melhor da ilha. E nos preços tmb. Podem pesquisar"</p>
-                    <p class="depoimento-autor">Ana Cristina</p>
+                <div class="depoimento" data-aos="fade-up" data-aos-delay="200">
+                    <blockquote>
+                        "A loja está de parabéns, funcionários nota 10 se preocupam com o cliente, se não tem peças eles buscam com fornecedor, e melhor ainda entregou na oficina onde estava meu carro. Com certeza a melhor da ilha. E nos preços tmb. Podem pesquisar"
+                    </blockquote>
+                    <cite>Ana Cristina</cite>
                 </div>
-                
-                    <div class="depoimento-item">
-                        <p class="depoimento-conteudo">"Maravilhosamente ótimo, melhor preço, melhor atendimento da ilha. Parabéns por existir essa auto peças na ilha do governador, muito grato. EQUIPE NOTA 1000"</p>
-                    <p class="depoimento-autor">Marcos paulo lima areia Lima</p>
+                <div class="depoimento" data-aos="fade-up" data-aos-delay="300">                    
+                    <blockquote>
+                        "Maravilhosamente ótimo, melhor preço, melhor atendimento da ilha. Parabéns por existir essa auto peças na ilha do governador, muito grato. EQUIPE NOTA 1000"
+                    </blockquote>
+                    <cite>Marcos paulo lima areia Lima</cite>
                 </div>
-                <!-- Repita este bloco para cada depoimento -->
-                    <div class="depoimento-item">
-                        <p class="depoimento-conteudo">"Ótimo atendimento! Estão de parabéns!"</p>
-                        <p class="depoimento-autor">leandro silva</p>
-                    </div>
-                <!-- Repita este bloco para cada depoimento -->
-         </section>
+                <div class="depoimento" data-aos="fade-up" data-aos-delay="400">                    
+                    <blockquote>
+                        "Ótimo atendimento! Estão de parabéns!"
+                    </blockquote>
+                    <cite>leandro silva</cite>
+                </div>
+        </section>
     </main>
-    
 
     <footer data-aos="fade-up">
         <div class="footer-content">
             <div class="footer-section">
                 <h3>Galeão Auto Peças</h3>
-                <p>Qualidade e confiança desde 1990.</p>
+                <p>Qualidade que transforma seu carro.</p>
             </div>
             <div class="footer-section">
                 <h3>Links Rápidos</h3>
                 <ul>
                     <li><a href="#home">Início</a></li>
                     <li><a href="#produtos">Produtos</a></li>
-                    <li><a href="#missao-visao-valores">Sobre Nós</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                    <li><a href="https://www.instagram.com/galeaoautopecas/" target="_blank">Instagram</a></li>
-                    <li><a href="https://www.facebook.com/Galeao.AP/" target="_blank">Facebook</a></li>
+                    <li><a href="#marcas">Marcas</a></li>
+                    <li><a href="#mvv">Sobre Nós</a></li>
                 </ul>
             </div>
             <div class="footer-section">
-                <h3>Contato</h3>
-                <p>Tel: (21) 99272-9373 / (21) 96472-0351</p>
-                <p>Email: galeao.autopecas230@gmail.com</p>
+                <h3>Siga-nos</h3>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/galeaoautopecas/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/Galeao.AP/" target="_blank"><i class="fab fa-facebook"></i></a>
+                </div>
             </div>
+        </div>
+        <div class="footer-section">
+            <h3>Contato</h3>
+            <p>Tel: (21) 99272-9373 / (21) 96472-0351</p>
+            <p>Email: galeao.autopecas230@gmail.com</p>
         </div>
         <div class="footer-bottom">
             <p>&copy; 2024 Galeão Auto Peças. Todos os direitos reservados.</p>
@@ -212,6 +214,5 @@
     </a>
 
     <script src="script.js"></script>
-    <script src="nav.js"></script>
 </body>
 </html>
