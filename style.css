@@ -558,7 +558,7 @@ footer {
 
 .sobre h2 {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .sobre-content {
@@ -600,13 +600,23 @@ footer {
     padding: 5rem 10%;
     background-color: #ffffff;
 }
+.mvv h1 {
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: black
+}
 
 .mvv h2 {
     text-align: center;
     margin-bottom: 3rem;
     color: black
 }
-
+.mvv h3 {
+    text-align: center;
+    margin-bottom: 3rem;
+    color: black
+}
 .mvv-container {
     display: flex;
     flex-wrap: wrap;
